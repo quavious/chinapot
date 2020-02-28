@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App img {
+    width: 480px;
+    margin: 30px;
+}
+
+.title {
+    color: yellow;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.context {
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.p-title {
+    width: 600px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-box {
+    width: 800px;
+}
+
+.framed {
+    display: flex;
+    justify-content: space-between;
+    width: 300px
+}
+
+.framed-element {
+    width: 20px;
+    height: 20px;
+}
